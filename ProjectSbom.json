@@ -1,0 +1,77 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2023-05-18T05:16:28Z",
+    "creators": [
+      "Organization: dancs96@gmail.com",
+      "Tool: FOSSA v0.12.0"
+    ],
+    "documentDescribes": [
+      "SPDXRef-mvn+org.apache.ant:ant$1.10.2"
+    ]
+  },
+  "name": "github.com/BaiChienKao/TomcatTest-40ca78dc7a5eac922f78744ac9310a1e050fd8b6",
+  "documentNamespace": "https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/git%2Bgithub.com%2FBaiChienKao%2FTomcatTest%2440ca78dc7a5eac922f78744ac9310a1e050fd8b6",
+  "dataLicense": "CC0-1.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-git+github.com/BaiChienKao/TomcatTest$40ca78dc7a5eac922f78744ac9310a1e050fd8b6",
+      "name": "TomcatTest",
+      "versionInfo": "40ca78dc7a5eac922f78744ac9310a1e050fd8b6",
+      "filesAnalyzed": true,
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: Git",
+      "licenseDeclared": "Apache-2.0 OR bzip2-1.0.5 OR bzip2-1.0.6 OR CDDL-1.0 OR CPL-1.0 OR EPL-2.0 OR Zlib",
+      "copyrightText": "rights in its Contribution, if any, to grant",
+      "licenseInfoFromFiles": [
+        "SWL",
+        "SCEA",
+        "GPL-2.0-with-classpath-exception",
+        "CDDL-1.1",
+        "CC0-1.0",
+        "Apache-1.1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "658a4b33dbfbfb7ad6cf7e83cab76dbbf71e2c71"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-mvn+org.apache.ant:ant$1.10.2",
+      "name": "Apache Ant Core",
+      "versionInfo": "1.10.2",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.2/ant-1.10.2-sources.jar",
+      "originator": "Organization: Maven",
+      "licenseDeclared": "NONE",
+      "copyrightText": "NONE",
+      "licenseInfoFromFiles": [
+        "Apache-2.0",
+        "SAX-PD",
+        "W3C",
+        "Apache-2.0",
+        "Info-ZIP",
+        "Apache-1.1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c98fa33aba01a7e9ffaac55fb3a64629db81c8eb"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-git+github.com/BaiChienKao/TomcatTest$40ca78dc7a5eac922f78744ac9310a1e050fd8b6"
+    }
+  ]
+}
